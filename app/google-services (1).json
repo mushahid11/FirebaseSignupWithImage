@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "386127268812",
+    "firebase_url": "https://fir-signupwithimage-default-rtdb.firebaseio.com",
+    "project_id": "fir-signupwithimage",
+    "storage_bucket": "fir-signupwithimage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386127268812:android:9d3e898ca4045dee122b69",
+        "android_client_info": {
+          "package_name": "com.example.firebasesignupwithimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386127268812-l9pj2njv2mj39jig0op803niqt2gcce9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlYqcwRdb4LW2lmcFK9iUntCg7sUv2fmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386127268812-l9pj2njv2mj39jig0op803niqt2gcce9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

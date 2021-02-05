@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/purple_200"
+        >
+    </ImageView>
+    <EditText
+        android:id="@+id/roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Roll_No"
+        android:layout_below="@id/profile_image">
+    </EditText>
+    <EditText
+        android:id="@+id/name"
+        android:hint="Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/roll_no">
+    </EditText>
+    <EditText
+        android:id="@+id/course"
+        android:hint="Course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name">
+    </EditText>
+    <EditText
+        android:id="@+id/contact"
+        android:hint="Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/course">
+    </EditText>
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:onClick="uploadToFirebase"
+        android:text="Sign Up">
+
+    </Button>
+
+</RelativeLayout>
